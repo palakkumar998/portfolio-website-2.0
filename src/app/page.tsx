@@ -1,10 +1,10 @@
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-      Portfolio website
-
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      {/* <h1>Porfolio 2.0 </h1> */}
+      <HeroSection />
 
     </main>
   );
